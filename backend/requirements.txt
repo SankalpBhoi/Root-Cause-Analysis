@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+psycopg2-binary>=2.9.10
+pymysql
+pypdf
+python-dotenv
+groq
+langgraph

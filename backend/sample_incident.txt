@@ -1,0 +1,5 @@
+Subject: Deviation - Dark particles found in Metformin Hydrochloride API, Batch MFH260712A
+
+Reported by: Rakesh Patel, QC Analyst. Date: 12 July 2026.
+During in-process inspection of Metformin Hydrochloride API (batch MFH260712A) at the centrifuge/drying stage in Block B, dark foreign particles were observed in the dried material from Dryer D-204. About 25 kg (1 HDPE drum) is affected. The drum was quarantined immediately and production was paused for the batch.
+The dryer was last cleaned on 9 July as per the log, but the cleaning checklist was signed by only one person. The operator on shift had joined 3 weeks ago. The dryer gasket was due for replacement in June (PM schedule), but the record shows it was postponed. Particles look like black rubber fragments.
