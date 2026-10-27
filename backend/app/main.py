@@ -12,9 +12,20 @@ from .graph import analysis_graph, chat_graph
 Base.metadata.create_all(bind=engine)  # creates the table if it doesn't exist
 
 app = FastAPI(title="AIVOA RCA Module")
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["http://localhost:5173"],  # React dev server
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # React dev server
+    allow_origins=[
+        "http://localhost:5173",
+        "https://root-cause-analysis-bpas.vercel.app",
+    ],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
