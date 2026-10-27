@@ -1,9 +1,13 @@
+
 {
   "name": "aivoa-rca",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": { "dev": "vite", "build": "vite build" },
+  "scripts": {
+    "dev": "vite",
+    "build": "node ./node_modules/vite/bin/vite.js build"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "react": "^18.3.1",
